@@ -4,7 +4,7 @@
   bottom: 0;
   right: 0;
   left: 0;
-  background-image:url(bg.jpg);
+  background-image: url(bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5%;
@@ -48,11 +48,16 @@ p{
   background-color: aliceblue;
 }
 
-#Activities{
-  display: flex;
-  justify-content: row;
-  align-items: left;
-}
-#m1{
+#m1,#m2,#m3{
   float: left;
+}
+#Writing,#Music,#Dance{
+  float: left;
+  height: 300px;
+  width: 700px;
+
+}
+#classes{
+  float: none;
+  clear: both;
 }
